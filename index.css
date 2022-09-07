@@ -11,11 +11,54 @@ html {
   font-family: var(--font-default);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 input,
 textarea {
   font-family: var(--font-default);
 }
 
+.home-wrapper {
+  width: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.navbar {
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 70px;
+}
+
 .navbar-menu a {
   color: black;
+  margin-left: 30px;
+  font-size: 1.5em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-menu a:hover {
+  color: var(--color-blue);
+}
+
+.navbar-menu a:nth-last-child(1) {
+  background-color: var(--color-blue);
+  color: #fff;
+  padding: 5px 10px;
 }
