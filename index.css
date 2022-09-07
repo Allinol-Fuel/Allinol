@@ -1,11 +1,21 @@
 :root {
-  --color-blue: #2D9BE3;
-  --color-black: #0D0D0D;
+  --color-blue: #2d9be3;
+  --color-black: #0d0d0d;
+  --font-default: "Oswald", sans-serif;
 }
 
-* {
-  font-family: 'Oswald', sans-serif;
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-default);
+}
+
+input,
+textarea {
+  font-family: var(--font-default);
+}
+
+.navbar-menu a {
+  color: black;
 }
