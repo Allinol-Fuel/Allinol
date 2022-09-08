@@ -112,3 +112,62 @@ textarea {
   margin: 0;
 }
 
+footer {
+  color: #fff;
+  background-color: var(--color-black);
+  padding: 50px 0;
+}
+
+.offices h1, 
+.overview h1, 
+.questions h1 {
+  color: var(--color-blue);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.offices p {
+  max-width: 200px;
+  line-height: 3;
+}
+
+.overview ul {
+  margin: 0;
+  padding: 0;
+}
+
+.overview ul li {
+  list-style-type: none;
+}
+
+.overview ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin: 10px 0;
+}
+
+input[type="email"] {
+  display: block;
+  font-size: 1.2em;
+}
+
+.submit-button {
+  border: none;
+  background-color: var(--color-blue);
+  color: #fff;
+  padding: 5px 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 50px;
+}
