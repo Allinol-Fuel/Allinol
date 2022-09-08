@@ -72,3 +72,26 @@ textarea {
   width: 100%;
   object-fit: cover;
 }
+
+.home-icon img {
+  width: 200px;
+}
+
+.allinol-reason {
+  text-align: center;
+}
+
+.allinol-reason h1 {
+  font-size: 3em;
+  color: var(--color-blue);
+}
+
+.home-icon .icon {
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.icon p {
+  font-size: 1.5em;
+}
+
