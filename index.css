@@ -69,7 +69,8 @@ textarea {
   width: 100%;
 }
 
-.home-image img {
+.home-image img,
+.about-image img {
   height: 700px;
   width: 100%;
   object-fit: cover;
@@ -175,6 +176,37 @@ input[type="email"] {
 }
 
 /* About Us */
+
+.ceo-profile {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.ceo-profile h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.ceo-profile h2 {
+  color: var(--color-blue);
+}
+
+.company-overview {
+  background-color: var(--color-blue);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.company-overview h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.company-overview p {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 1.2em;
+}
 
 /* Our Business */
 
