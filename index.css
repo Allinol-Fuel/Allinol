@@ -62,3 +62,13 @@ textarea {
   color: #fff;
   padding: 5px 10px;
 }
+
+.home-container {
+  width: 100%;
+}
+
+.home-image img {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+}
