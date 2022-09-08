@@ -70,7 +70,8 @@ textarea {
 }
 
 .home-image img,
-.about-image img {
+.about-image img,
+.investors-image img {
   height: 700px;
   width: 100%;
   object-fit: cover;
@@ -121,8 +122,8 @@ footer {
   padding: 50px 0;
 }
 
-.offices h1, 
-.overview h1, 
+.offices h1,
+.overview h1,
 .questions h1 {
   color: var(--color-blue);
 }
