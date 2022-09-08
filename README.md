@@ -9,9 +9,10 @@ Live URLs:
 
 ## Contributors
 
-- A
-- B
+- https://github.com/orgs/allinol-fuel/people/dennnsh
+- https://github.com/allinol-fuel/allinol/commits?author=mohammadfarizan
+
 
 ## Designs
 
-- Figma: ???
+- Figma: https://www.figma.com/file/hpycAgLlKOYKOVarKn5Jsn/allinol?node-id=23%3A191
