@@ -72,6 +72,7 @@ textarea {
 .home-image img,
 .about-image img,
 .business-image img,
+.sustainability-image img,
 .investors-image img {
   height: 700px;
   width: 100%;
@@ -246,6 +247,31 @@ input[type="email"] {
 }
 
 /* Sustainability */
+
+.ceo-message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 0;
+}
+
+.ceo-image img {
+  width: 500px;
+}
+
+.ceo-message h1 {
+  font-size: 2em;
+  color: var(--color-blue);
+}
+
+.ceo-message p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+.ceo-message {
+  width: 500px;
+}
 
 /* Investors */
 
