@@ -249,4 +249,23 @@ input[type="email"] {
 
 /* Investors */
 
+.press-finacial-reports-container {
+  display: flex;
+  flex-direction: row;
+}
+.press-finacial-reports-container h1 {
+  font-size: 24px;
+}
+.press-realese-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.press-release-wrapper ul li {
+  list-style: none;
+}
+.financial-reports-wrapper ul li {
+  list-style: none;
+}
 /* News */
