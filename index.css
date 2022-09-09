@@ -71,6 +71,7 @@ textarea {
 
 .home-image img,
 .about-image img,
+.business-image img,
 .investors-image img {
   height: 700px;
   width: 100%;
@@ -210,6 +211,39 @@ input[type="email"] {
 }
 
 /* Our Business */
+
+.business {
+  text-align: center;
+}
+
+.business h1 {
+  font-size: 2em;
+  color: var(--color-blue);
+}
+
+.business p {
+  font-size: 1.2em;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.business-allinol {
+  margin: 100px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.business-allinol div img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.business-allinol div p {
+  font-size: 1.5em;
+  text-align: center;
+}
 
 /* Sustainability */
 
