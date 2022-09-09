@@ -268,4 +268,11 @@ input[type="email"] {
 .financial-reports-wrapper ul li {
   list-style: none;
 }
+.financial-reports ul {
+  display: flex;
+  flex-direction: row;
+}
+.financial-reports ul li {
+  margin: 5px;
+}
 /* News */
