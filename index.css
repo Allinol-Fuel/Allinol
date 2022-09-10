@@ -126,13 +126,12 @@ textarea {
   font-size: 2em;
 }
 
-.contact-form input, 
+.contact-form input,
 .contact-form label,
 .contact-form textarea {
   font-size: 1.5em;
   width: 500px;
 }
-
 
 label {
   display: block;
@@ -307,6 +306,7 @@ footer {
 }
 .press-finacial-reports-container h1 {
   font-size: 24px;
+  margin-left: 20px;
 }
 .press-finacial-reports-container h2 {
   font-size: 20px;
@@ -316,10 +316,16 @@ footer {
   background-color: #2d9be3;
   border-radius: 30px;
 }
+.press-release-wrapper ul li {
+  margin-left: -20px;
+}
 .financial-reports-wrapper {
   width: 350px;
   background-color: #2d9be3;
   border-radius: 15px;
+}
+.financial-reports-wrapper h2 {
+  margin-left: 20px;
 }
 .press-realese-head {
   display: flex;
@@ -353,7 +359,28 @@ footer {
   border-radius: 15%;
   align-items: center;
 }
+.stock-information-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.stock-information-table {
+  display: flex;
+  flex-direction: column;
+}
+.stock-information-table tr th {
+  text-align: left;
+  padding-bottom: 50px;
+}
+.stock-information-table th {
+  width: 200px;
+}
+.stock-graph-wrapper img {
+  width: 480px;
+}
 /* News */
+
 .article-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
