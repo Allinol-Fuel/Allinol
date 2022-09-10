@@ -26,7 +26,8 @@ textarea {
 .home-wrapper,
 .about-wrapper,
 .business-wrapper,
-.sustainability-wrapper {
+.sustainability-wrapper,
+.investors-wrapper {
   width: 100%;
   min-width: 300px;
 }
@@ -288,11 +289,13 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  flex-wrap: wrap;
   padding: 100px 0;
+  margin: 0 100px;
 }
 
 .ceo-image img {
-  width: 500px;
+  width: 400px;
 }
 
 .ceo-message h1 {
@@ -556,6 +559,17 @@ footer {
   .business-allinol div p {
     font-size: 1em;
   }
+
+  /* Sustainability */
+
+  .ceo-message-container {
+    margin: 50px;
+  }
+
+  .ceo-image img {
+    width: 200px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -615,5 +629,23 @@ footer {
     align-items: center;
     gap: 50px;
     flex-direction: column;
+  }
+
+  /* Sustainability */
+  .ceo-message-container {
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    padding: 0;
+    margin: 50px;
+  }
+
+  .ceo-message {
+    text-align: center;
+  }
+
+  .ceo-message {
+    width: 100%;
+    margin: 0;
   }
 }
