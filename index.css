@@ -118,6 +118,26 @@ textarea {
   margin: 0;
 }
 
+.contact-us {
+  padding: 30px 100px;
+}
+
+.contact-us h1 {
+  font-size: 2em;
+}
+
+.contact-form input, 
+.contact-form label,
+.contact-form textarea {
+  font-size: 1.5em;
+  width: 500px;
+}
+
+
+label {
+  display: block;
+}
+
 footer {
   color: #fff;
   background-color: var(--color-black);
@@ -126,7 +146,8 @@ footer {
 
 .offices h1,
 .overview h1,
-.questions h1 {
+.questions h1,
+.contact-us h1 {
   color: var(--color-blue);
 }
 
@@ -157,7 +178,7 @@ footer {
   margin: 10px 0;
 }
 
-input[type="email"] {
+.questions input[type="email"] {
   display: block;
   font-size: 1.2em;
 }
