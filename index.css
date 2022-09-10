@@ -314,7 +314,7 @@ footer {
 .press-release-wrapper {
   width: 600px;
   background-color: #2d9be3;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 .press-release-wrapper ul li {
   margin-left: -20px;
@@ -379,6 +379,15 @@ footer {
 .stock-graph-wrapper img {
   width: 480px;
 }
+.financial-reports-head img {
+  width: 32px;
+  height: 32px;
+}
+.press-realese-head img {
+  width: 32px;
+  height: 32px;
+}
+
 /* News */
 
 .article-wrapper {
