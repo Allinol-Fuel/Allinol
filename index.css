@@ -24,7 +24,9 @@ textarea {
 }
 
 .home-wrapper,
-.about-wrapper {
+.about-wrapper,
+.business-wrapper,
+.sustainability-wrapper {
   width: 100%;
   min-width: 300px;
 }
@@ -247,6 +249,7 @@ footer {
 
 .business {
   text-align: center;
+  padding: 0 50px;
 }
 
 .business h1 {
@@ -256,7 +259,6 @@ footer {
 
 .business p {
   font-size: 1.2em;
-  width: 800px;
   margin: 0 auto;
 }
 
@@ -264,11 +266,12 @@ footer {
   margin: 100px 50px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .business-allinol div img {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -543,6 +546,16 @@ footer {
     font-size: 1em;
   }
   
+  /* Business */
+
+  .business-allinol div img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .business-allinol div p {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -594,5 +607,13 @@ footer {
   .footer-container {
     flex-direction: column;
     margin: 0 100px;
+  }
+
+  /* Business */
+
+  .business-allinol {
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
   }
 }
