@@ -25,6 +25,7 @@ textarea {
 
 .home-wrapper {
   width: 100%;
+  min-width: 300px;
 }
 
 .navbar-container {
@@ -65,6 +66,9 @@ textarea {
   padding: 5px 10px;
 }
 
+.menu-icon {
+  display: none;
+}
 .home-container {
   width: 100%;
 }
@@ -77,6 +81,12 @@ textarea {
   height: 700px;
   width: 100%;
   object-fit: cover;
+}
+
+.home-icon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .home-icon img {
@@ -104,6 +114,7 @@ textarea {
 .allinol-information {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: var(--color-blue);
   color: #fff;
   padding: 50px 0;
@@ -440,4 +451,88 @@ footer {
 .article-text a {
   text-decoration: none;
   color: #2d9be3;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .navbar-menu {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .navbar-dropdown {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  .navbar-menu a {
+    display: block;
+    margin: 0;
+    padding: 30px 0;
+  }
+
+  .navbar-menu a:nth-last-child(1) {
+    background-color: unset;
+    color: #000;
+    padding: 30px 0;
+  }
+
+  .navbar-logo img {
+    height: 50px;
+  }
+
+  .home-icon {
+    gap: 20px;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 1.5em;
+    z-index: 99;
+    cursor: pointer;
+  }
+
+  .icon img {
+    width: 100px;
+  }
+
+  .icon p {
+    font-size: 1em;
+  }
+
+  .allinol-information {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .information p {
+    margin: 0;
+  }
+
+  .contact-us h1 {
+    text-align: center;
+  }
+
+  .contact-form input,
+  .contact-form label,
+  .contact-form textarea {
+  width: 100%;
+}
+
+  .footer-container {
+    flex-direction: column;
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  
 }
