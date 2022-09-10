@@ -23,7 +23,8 @@ textarea {
   font-family: var(--font-default);
 }
 
-.home-wrapper {
+.home-wrapper,
+.about-wrapper {
   width: 100%;
   min-width: 300px;
 }
@@ -238,8 +239,8 @@ footer {
 
 .company-overview p {
   margin: 0 auto;
-  width: 1000px;
   font-size: 1.2em;
+  padding: 0 50px;
 }
 
 /* Our Business */
@@ -530,6 +531,18 @@ footer {
     flex-direction: column;
     margin: 0 100px;
   }
+
+  /* About */
+
+  .company-overview {
+    padding: 50px 30px;
+  }
+
+  .company-overview p {
+    margin: 0 auto;
+    font-size: 1em;
+  }
+  
 }
 
 @media (max-width: 768px) {
