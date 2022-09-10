@@ -333,3 +333,29 @@ input[type="email"] {
   align-items: center;
 }
 /* News */
+.article-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.article-wrapper article {
+  border: 1px;
+  border-style: solid;
+  border-color: #2d9be3;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.article-wrapper article img {
+  max-width: 100%;
+}
+.article-wrapper .article-text {
+  padding: 20px;
+}
+.news-container {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+.article-text a {
+  text-decoration: none;
+  color: #2d9be3;
+}
