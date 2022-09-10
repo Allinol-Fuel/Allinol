@@ -4,14 +4,13 @@ All for one oil company
 
 Live URLs:
 
-- https://allinol.?.com
-- https://allinol.?.com
+- https://allinol.mohammadfarizan.com
+- https://allinol.dennysh.com
 
 ## Contributors
 
 - https://github.com/orgs/allinol-fuel/people/dennnsh
 - https://github.com/allinol-fuel/allinol/commits?author=mohammadfarizan
-
 
 ## Designs
 
