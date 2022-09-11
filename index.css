@@ -27,7 +27,8 @@ textarea {
 .about-wrapper,
 .business-wrapper,
 .sustainability-wrapper,
-.investors-wrapper {
+.investors-wrapper,
+.news-wrapper {
   width: 100%;
   min-width: 300px;
 }
@@ -449,7 +450,7 @@ footer {
 }
 
 .article-wrapper article img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .article-wrapper .article-text {
@@ -457,8 +458,8 @@ footer {
 }
 
 .news-container {
-  margin-top: 200px;
-  margin-bottom: 30px;
+  margin: 100px 30px;
+
 }
 
 .article-text a {
